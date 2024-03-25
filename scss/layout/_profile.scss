@@ -21,16 +21,6 @@
 				flex-direction: column;
 				justify-content: start;
 				margin: 41px 0 51px 32px;
-				&__img{
-					display: flex;
-					justify-content: center;
-					align-items: center;
-					width: 66px;
-					min-height: 66px;
-					background-color: var(--secondary);
-					border: 1px solid var(--grey-10);
-					border-radius: 8px;
-				}
 				&__title{
 					font-size: var(--2xl);
 					font-weight: 600;

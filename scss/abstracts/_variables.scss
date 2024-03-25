@@ -27,3 +27,60 @@
 	height: 1px;
 	background-color: var(--grey-10);
 }
+
+.point{
+	width: 12px;
+	height: 12px;
+	background-color: var(--grey-60);
+	border-radius: 100px;
+}
+
+.sm-point{
+	width: 4px;
+	height: 4px;
+	background-color: var(--grey-60);
+	border-radius: 100px;
+}
+
+.exp-line{
+	width: 1px;
+	height: 250px;
+	background-color: var(--grey-10);
+	border-radius: 100px;
+}
+
+.block-icon{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 66px;
+	min-height: 66px;
+	background-color: var(--secondary);
+	border: 1px solid var(--grey-10);
+	border-radius: 8px;
+}
+
+.block-title{
+	padding: 50px 0 0 30px;
+	&__title{
+		font-size: var(--2xl);
+		font-weight: 600;
+		color: var(--dark);
+		margin: 60px 0 18px 0;
+	}
+	&__subtitle{
+		font-size: var(--md);
+		font-weight: 500;
+		color: var(--grey-60);
+		margin-bottom: 45px;
+		line-height: 1.5;
+		max-width: 550px;
+	}
+}
+
+.content{
+	width: 100%;
+	background-color: var(--white);
+	border: 1px solid var(--grey-10);
+	border-radius: 20px;
+}
