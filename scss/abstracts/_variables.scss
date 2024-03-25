@@ -1,0 +1,29 @@
+:root{
+	--font-family: "Inter", sans-serif;
+	--container-width: 1356px;
+	--container-offset: 95px;
+
+	--dark: #1d1d26;
+	--grey-90: #33333b;
+	--grey-60: #77777d;
+	--grey-50: #8e8e92;
+	--grey-10: #e3e3e4;
+	--secondary: #f9f9f9;
+	--green: #2EDE7F;
+	--blue: #2E7FDE;
+	--white: #ffffff;
+
+	--giant: 48px;
+	--2xl: 28px;
+	--xl: 24px;
+	--lg: 20px;
+	--md: 18px;
+	--sm: 16px;
+	--xs: 14px;
+}
+
+.h-line{
+	width: 100%;
+	height: 1px;
+	background-color: var(--grey-10);
+}

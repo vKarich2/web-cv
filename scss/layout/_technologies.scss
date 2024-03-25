@@ -1,0 +1,26 @@
+.technologies{
+	margin: 32px 0;
+	&__content{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: var(--white);
+		border: 1px solid var(--grey-10);
+		border-radius: 20px;
+		width: 100%;
+		min-height: 247px;
+		&__title{
+			font-size: var(--lg);
+			font-weight: 500;
+			color: var(--grey-60);
+			margin: 41px 0 31px 0;
+		}
+		&__icons{
+			margin: 65px 0 55px 0;
+			width: 100%;
+			display: flex;
+			justify-content: space-evenly;
+			
+		}
+	}
+}

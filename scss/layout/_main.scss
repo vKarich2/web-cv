@@ -1,0 +1,84 @@
+.main{
+	padding-bottom: 165px;
+	&__content{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		&__decor{
+			margin-top: 157px;
+			min-width: 220px;
+			min-height: 40px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			gap: 6px;
+			background-color: var(--white);
+			border: 1px solid var(--grey-10);
+			border-radius: 8px;
+			&__circle{
+				width: 12px;
+				height: 12px;
+				border-radius: 100px;
+				background-color: var(--green);
+				animation: blink 3s infinite;
+			}
+			&__text{
+				font-size: var(--sm);
+				font-weight: 400;
+			}
+		}
+		&__title{
+			margin: 28px 0 14px 0;
+			font-size: var(--giant);
+			font-weight: 600;
+		}
+		&__subtitle{
+			margin: 0;
+			font-size: var(--xl);
+			font-weight: 500;
+			color: var(--grey-60);
+		}
+		&__btns{
+			margin-top: 40px;
+			display: flex;
+			gap: 40px;
+			font-size: var(--lg);
+			font-weight: 500;
+			&__item{
+				display: flex;
+				gap: 8px;
+				justify-content: center;
+				align-items: center;
+				border-radius: 16px;
+			}
+		}
+	}
+}
+
+.btn{
+	&__email{
+		color: var(--white);
+		background-color: var(--dark);
+		min-width: 200px;
+		min-height: 58px;
+	}
+	&__download {
+		color: var(--dark);
+		background-color: var(--grey-10);
+		min-width: 210px;
+		min-height: 58px;
+	}
+}
+
+@keyframes blink{
+	0%{
+		opacity: 1;
+	}
+	50%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
